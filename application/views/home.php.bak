@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+</head>
+<body>
+<p><a href = '/ci/index.php/welcome/home'>Home</a></p>
+<p><a href = '/ci/index.php/welcome/login'>Login</a></p>
+<p><a href = '/ci/index.php/welcome/register'>Register</a></p>
+</body>
+</html>

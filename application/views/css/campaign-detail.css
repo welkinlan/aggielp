@@ -1,0 +1,210 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0;
+}
+
+div.content {
+	background: #6CA300;
+	padding-top: 8%;
+	padding-left: 0px auto;
+	padding-right: 0px auto;
+	padding-bottom: 8%;
+}
+
+div.content div.subcontent1 {
+	height: 50%;
+	text-align: center;
+	margin-left: 17.8%;
+	margin-right: 17.8%;
+	width: 66.7%;
+	border:1px soild #000;
+	background:#CCFF99;
+}
+
+div.content div.subcontent1 img {
+	height: 100%;
+	width: 100%;
+}
+
+div.content div.subcontent {
+	height: 430px;
+	margin-left: 17.8%;
+	margin-right: 17.8%;
+	text-align: center;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.2), 0
+		3px 0 #fff, 0 4px 0 rgba(0, 0, 0, 0.2), 0 6px 0 #fff, 0 7px 0
+		rgba(0, 0, 0, 0.2);
+	width: 66.7%;
+	z-index: 0;
+	background-color: #FFFFBB;
+	background: -webkit-gradient(linear, left top, left 24, from(#EEE),
+		color-stop(4%, #FFF), to(#EEE) );
+	background: -moz-linear-gradient(top, #EEE, #FFF 1px, #EEE 24px);
+	background: -o-linear-gradient(top, #EEEEEE, #FFFFFF 1px, #EEEEEE 24px);
+	-moz-border-radius-bottomleft: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+div.content div.subcontent ul {
+	height: 200px;
+	float: left;
+	margin: 0px;
+	margin-left: 9%;
+}
+
+div.content div.subcontent ul li.listyle {
+	height: 200px;
+	float: left;
+	width: 130%;
+	margin-left:10%;
+}
+
+div.content div.subcontent ul li.listyle div.detail {
+	height: 200px;
+	float: center;
+	margin: 0px;
+	margin-top: 70px;
+	width: 100%;
+}
+
+div.content div.subcontent ul li.listyle div.detail h1 {
+	font-size: 180%;
+	font-family: cursive;
+	color: #000;
+}
+
+div.content div.subcontent ul li.listyle div.detail p.des {
+	font-size: 150%;
+	font-family: cursive;
+	color: #000;
+	height: 140px;
+	width: auto;
+	float: left;
+	white-space: wrap;
+	overflow: hidden;
+	margin-left: 5%;
+}
+
+div.content div.subcontent ul li.listyle div.contentjoin {
+	height: 100px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 60px;
+	margin-bottom: 0px;
+	padding: 10px;
+}
+
+div.content div.subcontent ul li.listyle div.contentjoin div.detail1 {
+	height: 70px;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	padding: 10px;
+}
+
+div.content div.subcontent ul li.listyle div.contentjoin div.detail1 span.tag
+	{
+	border-radius: 100px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+	height: 200px;
+	font-size: 180%;
+	font-family: cursive;
+	color: #fff;
+	padding-left: 30px;
+	padding-right: 120px;
+	background: -moz-linear-gradient(top, #0000FF 0%, #000088 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0000FF),
+		color-stop(100%, #000088) );
+	background: -webkit-linear-gradient(top, #0000FF 0%, #000088 100%);
+	background: -o-linear-gradient(top, #0000FF 0%, #000088 100%);
+	background: linear-gradient(top, #0000FF 0%, #000088 100%);
+}
+
+div.content div.subcontent ul li.listyle div.contentjoin div.detail2 {
+	height: 100px;
+	float: left;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	display: inline;
+	margin-left: -90px;
+}
+
+div.content div.subcontent ul li.listyle div.contentjoin div.detail2 a.round:link,a.round:visited
+	{
+	width: 90px;
+	color: #fff;
+	text-decoration: none;
+	font: 28px/30px LeagueGothicRegular;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-shadow: #6f0909 0 -1px 1px;
+	border: 1px solid #6F0909;
+	display: inline-block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	-moz-box-shadow: inset rgba(255, 255, 255, .8) 0 2px 4px;
+	-webkit-box-shadow: inset rgba(255, 255, 255, .8) 0 2px 4px;
+	box-shadow: inset rgba(255, 255, 255, .8) 0 2px 4px;
+	background: -moz-linear-gradient(top, #0000FF 0%, #000088 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0000FF),
+		color-stop(100%, #000088) );
+	background: -webkit-linear-gradient(top, #0000FF 0%, #000088 100%);
+	background: -o-linear-gradient(top, #0000FF 0%, #000088 100%);
+	background: linear-gradient(top, #0000FF 0%, #000088 100%);
+	-moz-background-clip: padding-box;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	-webkit-transform: rotate(-12deg);
+	-moz-transform: rotate(-12deg);
+	-ms-transform: rotate(-12deg);
+	-o-transform: rotate(-12deg);
+	transform: rotate(-12deg);
+}
+
+div.content div.subcontent ul li.listyle div.contentjoin div.detail2 a.round:hover
+	{
+	text-decoration: none;
+	-moz-box-shadow: rgba(255, 255, 255, 1) 0 0 20px, rgba(255, 255, 255, 1)
+		0 0 30px, inset rgba(255, 255, 255, .8) 0 2px 4px;
+	-webkit-box-shadow: rgba(255, 255, 255, 1) 0 0 20px,
+		rgba(255, 255, 255, 1) 0 0 30px, inset rgba(255, 255, 255, .8) 0 2px
+		4px;
+	box-shadow: rgba(255, 255, 255, 1) 0 0 20px, rgba(255, 255, 255, 1) 0 0
+		30px, inset rgba(255, 255, 255, .8) 0 2px 4px;
+	-moz-transform: rotate(0deg);
+	-moz-transition: -moz-transform 0.3s ease-out;
+	-webkit-transform: rotate(0deg);
+	-webkit-transition: -webkit-transform 0.3s ease-out;
+	-o-transform: rotate(0deg);
+	-o-transition: -o-transform 0.3s ease-out;
+}
+
+div.content div.subcontent ul li.listyle div.contentjoin div.detail2 a.round:active
+	{
+	text-decoration: none;
+	-moz-box-shadow: rgba(255, 255, 255, 1) 0 0 20px, rgba(255, 255, 255, 1)
+		0 0 30px, inset rgba(0, 0, 0, .5) 0 4px 4px;
+	-webkit-box-shadow: rgba(255, 255, 255, 1) 0 0 20px,
+		rgba(255, 255, 255, 1) 0 0 30px, inset rgba(0, 0, 0, .5) 0 4px 4px;
+	box-shadow: rgba(255, 255, 255, 1) 0 0 20px, rgba(255, 255, 255, 1) 0 0
+		30px, inset rgba(0, 0, 0, .5) 0 4px 4px;
+	background: -moz-linear-gradient(top, #000 0%, #000088 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000),
+		color-stop(100%, #000088) );
+	background: -webkit-linear-gradient(top, #000 0%, #000088 100%);
+	background: -o-linear-gradient(top, #000 0%, #000088 100%);
+	background: linear-gradient(top, #000 0%, #000088 100%);
+	-moz-background-clip: padding-box;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}

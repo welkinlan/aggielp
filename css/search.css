@@ -1,0 +1,101 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0;
+}
+
+div.content {
+	height: 1200px;
+	background: #6CA300;
+}
+
+div.content div.span-left {
+	margin: 0px;
+	margin-top: 30px;
+	margin-right: 5px;
+	height: 470px;
+	width: 230px;
+	background: white;
+	float: left;
+	position:fixed;
+}
+
+div.content div.span-left ul {
+	width: 228px;
+	margin: 0px;
+	padding: 0;
+	background-color: white;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .065);
+}
+
+div.content div.span-left ul li {
+	isplay: list-item;
+	text-align: -webkit-match-parent;
+	line-height: 20px;
+}
+
+div.content div.span-left ul.nav-list>li>a {
+	padding: 3px 15px;
+}
+
+div.content div.span-left ul.nav-list>li>a,div.content div.span-left ul.nav-list .nav-header
+	{
+	margin-right: 0px;
+	margin-left: 0px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.bs-docs-sidenav .icon-chevron-right {
+	float: right;
+	margin-top: 2px;
+	margin-right: -6px;
+	opacity: .25;
+}
+
+div.content div.span-center {
+	padding-left: 22px;
+	padding-top:5px;
+	margin-top: 30px;
+	margin-left: 270px;
+	width: 900px;
+	background: #EEE;
+	display: inline;
+	background: -webkit-gradient(linear, left top, left 24, from(#EEE),
+		color-stop(4%, #FFF), to(#EEE) );
+	background: -moz-linear-gradient(top, #EEE, #FFF 1px, #EEE 24px);
+	background: -o-linear-gradient(top, #EEEEEE, #FFFFFF 1px, #EEEEEE 24px);
+	border-radius:6px;
+}
+
+div.content div.span-center div.span-search {
+	margin: 0px;
+	width: 900px;
+	float: left;
+	margin-bottom:10px;
+}
+
+div.content div.span-center div.span-search input[name=searchcontent] {
+	line-height: 2em;
+	font-size: 12px;
+	height: 24px;
+	border: none;
+	width: 740px;
+}
+
+div.content div.span-center div.span-search a.btnsearch {
+	margin-top: -11px;
+	height: 20px;
+}
+
+div.content div.span-center div.span-search a.btndropdown {
+	margin-top: -11px;
+	margin-left: -10px;
+	height: 20px;
+	width: 2px;
+	padding-left: 5px;
+}

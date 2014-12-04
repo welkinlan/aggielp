@@ -1,0 +1,86 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class Main extends CI_Controller {
+
+	public function index()
+	{
+		$this->head();
+	}
+
+	public function home()
+	{
+		$this->load->view('home');
+	}
+
+	public function login()
+	{
+		$this->load->view('login');
+	}
+
+	public function register()
+	{
+		$this->load->view('register');
+	}
+
+	public function head()
+	{
+		$this->load->view('aggielp/index');
+	}
+	
+	public function members()
+	{
+		if ($this->session->userdata('is_logged_in')) {
+			$this->load->view('members');
+		} else {
+			redirect('main/restricted');
+		}
+	}
+
+	public function restricted()
+	{
+		$this->load->view('restricted');
+	}
+
+	public function login_validation()
+	{
+		$this->load->library('form_validation');
+
+		$this->form_validation->set_rules('username', 'Username', 'required|trim|callback_validate_credentials');
+
+		$this->form_validation->set_rules('passwd', 'Passwd', 'required|md5|trim');
+		
+		if ($this->form_validation->run()){
+			$data = array(
+				'username' => $this->input->post('username'),
+				'is_logged_in' => 1
+			);
+			$this->session->set_userdata($data);
+			redirect('main/members');
+		} else {
+			$this->load->view('login');
+		}
+		
+	}
+
+	public function validate_credentials()
+	{
+		$this->load->model('model_users');
+
+		if ($this->model_users->can_log_in()) {
+			return true;
+		} else {
+			$this->form_validation->set_message('validate_credentials', 'Incorrect username/passwd.');
+			return false;
+		}
+	}
+
+	public function logout()
+	{
+		$this->session->sess_destroy();
+		redirect('main/login');
+	}
+
+}
+
+/* End of file welcome.php */
+/* Location: ./application/controllers/welcome.php */

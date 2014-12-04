@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0;
+}
+
+div.content {
+	background: #6CA300;
+	padding-top: 80px;
+	padding-left: 0px auto;
+	padding-right: 0px auto;
+	padding-bottom: 100px;
+}
+
+div.content img{
+	height: 400px;
+	text-align: center;
+	margin-left: 240px;
+	width: 900px;
+}
+
+div.content div.subcontent {
+	height: 320px;
+	margin-left: 240px;
+	text-align: center;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.2), 0
+		3px 0 #fff, 0 4px 0 rgba(0, 0, 0, 0.2), 0 6px 0 #fff, 0 7px 0
+		rgba(0, 0, 0, 0.2);
+	width: 900px;
+	z-index: 0;
+	background-color: #FFFFBB;
+	background: -webkit-gradient(linear, left top, left 24, from(#EEE),
+		color-stop(4%, #FFF), to(#EEE) );
+	background: -moz-linear-gradient(top, #EEE, #FFF 1px, #EEE 24px);
+	background: -o-linear-gradient(top, #EEEEEE, #FFFFFF 1px, #EEEEEE 24px);
+	-moz-border-radius-bottomleft:20px;
+	-webkit-border-bottom-left-radius:20px;
+	border-bottom-left-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	-webkit-border-bottom-right-radius:20px;
+	border-bottom-right-radius:20px;
+}
+
+div.content div.subcontent ul {
+	height: 200px;
+	float:left;
+	margin:0px;
+	margin-left:50px;
+}
+
+div.content div.subcontent ul li.listyle{
+	height: 200px;
+	float:left;
+	width:800px;
+}
+
+div.content div.subcontent ul li.listyle div.detail {
+	height: 200px;
+	float:center;
+	margin:0px;
+	margin-top:70px;
+	width:800px;
+}
+
+div.content div.subcontent ul li.listyle div.detail h1{
+	font-size:180%;
+	font-family:cursive;
+	color:#000;
+}
+
+div.content div.subcontent ul li.listyle div.detail p.des{
+	font-size:150%;
+	font-family:cursive;
+	color:#000;
+	height:140px;
+	width:auto;
+	float:left;
+	white-space:wrap;
+	overflow:hidden;
+	margin-left:50px;
+}
+
+div.content div.subcontent ul li.listyle div.contentjoin {
+    height: 100px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding: 10px;
+}

@@ -1,0 +1,224 @@
+@CHARSET "UTF-8";
+
+.wrap {
+	margin: 60px auto;
+	width: 800px;
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+
+.loginForm {
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.2), 0
+		3px 0 #fff, 0 4px 0 rgba(0, 0, 0, 0.2), 0 6px 0 #fff, 0 7px 0
+		rgba(0, 0, 0, 0.2);
+	position: absolute;
+	z-index: 0;
+	background-color: #FFF;
+	width: 800px;
+	background: -webkit-gradient(linear, left top, left 24, from(#EEE),
+		color-stop(4%, #FFF), to(#EEE) );
+	background: -moz-linear-gradient(top, #EEE, #FFF 1px, #EEE 24px);
+	background: -o-linear-gradient(top, #EEEEEE, #FFFFFF 1px, #EEEEEE 24px);
+	padding-bottom: 40px;
+	border-radius: 10px;
+}
+
+.loginForm:before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	border: 1px dashed #CCC;
+	top: 5px;
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
+	box-shadow: 0 0 0 1px #FFF;
+	border-radius: 10px;
+}
+
+.loginForm h1 {
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .7), 0px 2px 0
+		rgba(0, 0, 0, .5);
+	text-transform: uppercase;
+	text-align: center;
+	color: #666;
+	line-height: 1em;
+	margin: 0px 0 20px 0;
+	letter-spacing: 4px;
+	font: normal 26px/1 Microsoft YaHei, sans-serif;
+}
+
+fieldset {
+	border: none;
+	padding: 1px 20px 0;
+}
+
+fieldset img[name=logo] {
+	padding-top: 20px;
+}
+
+fieldset input[name=username],fieldset input[name=password1],fieldset input[name=password2],fieldset input[name=email],fieldset input[name=phone]
+	{
+	width: 420px;
+	line-height: 2em;
+	font-size: 12px;
+	height: 20px;
+	border: none;
+	padding: 3px 4px 3px 2.2em;
+	border-radius: 10px;
+}
+
+fieldset input[name=level] {
+	line-height: 2em;
+	height: 10px;
+	border: none;
+	border-radius: 10px;
+}
+
+fieldset select[name=gender],fieldset select[name=nation] {
+	width: 480px;
+	line-height: 2em;
+	font-size: 12px;
+	height: 26px;
+	border: none;
+	padding: 3px 4px 3px 2.2em;
+	border-radius: 10px;
+}
+
+#sleHid {
+	display: block;
+	width: 450px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+#sleBG {
+	width: 480px;
+	height: 26px;
+	display: block;
+	border-radius: 10px;
+}
+
+fieldset input[name=realname],fieldset input[name=idnum] {
+	width: 410px;
+	line-height: 2em;
+	font-size: 12px;
+	height: 20px;
+	border: none;
+	padding: 3px 4px 3px 2.2em;
+	border-radius: 10px;
+}
+
+fieldset input[name=go] {
+	padding: 2px 20px;
+	line-height: 2em;
+	border: 1px solid #FF1500;
+	border-radius: 3px;
+	background: -webkit-gradient(linear, left top, left 24, from(#FF6900),
+		color-stop(0%, #FF9800), to(#FF6900) );
+	background: -moz-linear-gradient(top, #FF6900, #FF9800 0, #FF6900 24px);
+	background: -o-linear-gradient(top, #FF6900, #FF9800 0, #FF6900 24px);
+	filter: progid :   DXImageTransform.Microsoft.gradient ( 
+		           startColorstr =   '#FF9800', endColorstr =   '#FF6900' );
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF9800', endColorstr='#FF6900')";
+	height: 30px;
+	cursor: pointer;
+	letter-spacing: 4px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+fieldset input[name=go]:hover {
+	background: -webkit-gradient(linear, left top, left 24, from(#FF9800),
+		color-stop(0%, #FF6900), to(#FF9800) );
+	background: -moz-linear-gradient(top, #FF9800, #FF6900 0, #FF9800 24px);
+	background: -o-linear-gradient(top, #FF6900, #FF6900 0, #FF9800 24px);
+	filter: progid :                        
+		  DXImageTransform.Microsoft.gradient (  
+		           startColorstr =   '#FF6900', endColorstr =   '#FF9800' );
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF6900', endColorstr='#FF9800')";
+}
+
+.inputWrap {
+	background: -webkit-gradient(linear, left top, left 24, from(#FFFFFF),
+		color-stop(4%, #EEEEEE), to(#FFFFFF) );
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 24px);
+	background: -o-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 24px);
+	border-radius: 30px;
+	border: 1px solid #CCC;
+	margin: 10px 10px 0;
+	filter: progid :                        
+		  DXImageTransform.Microsoft.gradient ( 
+		           startColorstr =    '#EEEEEE', endColorstr =   '#FFFFFF' );
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEEEE', endColorstr='#FFFFFF')";
+}
+
+.inputWrap1 {
+	background: -webkit-gradient(linear, left top, left 24, from(#FFFFFF),
+		color-stop(4%, #EEEEEE), to(#FFFFFF) );
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 24px);
+	background: -o-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 24px);
+	border-radius: 30px;
+	border: 1px solid #CCC;
+	margin: 10px 10px 0;
+	filter: progid :                        
+		  DXImageTransform.Microsoft.gradient (  
+		           startColorstr =   '#EEEEEE', endColorstr =   '#FFFFFF' );
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEEEE', endColorstr='#FFFFFF')";
+	width: 200px;
+	float: left;
+}
+
+fieldset a {
+	color: blue;
+	font-size: 12px;
+	margin: 6px 0 0 10px;
+	text-decoration: none;
+}
+
+.fieldset1 a {
+	color: blue;
+	font-size: 12px;
+	float: right;
+	padding: 11px;
+}
+
+fieldset a:hover {
+	text-decoration: underline;
+}
+
+fieldset span {
+	font-size: 12px;
+}
+
+textarea {
+	width: 750px;
+	height: 180px;
+	resize:none;
+}
+
+
+.success {
+                background: #d5ffce url('../img/login&register/tick_circle.png');
+                border-color: #9adf8f;
+                color: #556652;
+                }
+
+.error {
+                background: #ffcece url('../img/login&register/cross_circle.png');
+                border-color: #df8f8f;
+                color: #665252;
+                }
+
+.input-notification {
+                        background-position: left 2px;
+                        background-repeat: no-repeat;
+                        padding: 2px 0 2px 22px;
+                        background-color: transparent;
+                        margin: 0 0 0 5px;
+                        }
+

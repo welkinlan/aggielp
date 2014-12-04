@@ -1,0 +1,172 @@
+@CHARSET "utf-8";
+
+body {
+	margin: 0;
+	background: #6CA300;
+}
+
+.wrap {
+	margin-left: 20%;
+	margin-top: 8%;
+	margin-bottom: 8%;
+	margin-right: 8%;
+	width: 50%;
+	height: 780px;
+}
+
+.loginForm {
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.2), 0
+		3px 0 #fff, 0 4px 0 rgba(0, 0, 0, 0.2), 0 6px 0 #fff, 0 7px 0
+		rgba(0, 0, 0, 0.2);
+	position: absolute;
+	z-index: 0;
+	border-radius: 10px;
+	height: 730px;
+	width: 58%;
+	background: -webkit-gradient(linear, left top, left 24, from(#EFB),
+		color-stop(4%, #FFF), to(#EFB) );
+	background: -moz-linear-gradient(top, #EFB, #FFF 1px, #EFB 24px);
+	background: -o-linear-gradient(top, #EFB, #FFFFFF 1px, #EFB 24px);
+	padding: 2%;
+	padding-left: 4%;
+}
+
+.loginForm:before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	border: 1px dashed #CCC;
+	top: 5px;
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
+	box-shadow: 0 0 0 1px #FFF;
+	border-radius: 10px;
+}
+
+.loginForm h1 {
+	font-family: cursive;
+	color: #000;
+	margin-left: 4%;
+	margin-top: 6%;
+}
+
+.loginForm ul li.titleli {
+	line-height: 2.8em;
+}
+
+.loginForm ul li.titleli span.titlesp {
+	font-family: cursive;
+	color: #000;
+	font-size: 150%;
+}
+
+.loginForm ul li.titleli input[name=title] {
+	margin-top: -4px;
+	border-radius: 10px;
+	width: 85%;
+}
+
+.loginForm ul li.desli {
+	line-height: 2.8em;
+}
+
+.loginForm ul li.desli span.dessp {
+	font-family: cursive;
+	color: #000;
+	font-size: 150%;
+}
+
+.loginForm ul li.desli textarea[name=description] {
+	margin-top: -4px;
+	border-radius: 10px;
+	width: 93%;
+	height: 200px;
+	resize: none;
+}
+
+.loginForm ul li.catalogueli {
+	line-height: 2.8em;
+}
+
+.loginForm ul li.catalogueli span.cataloguesp {
+	font-family: cursive;
+	color: #000;
+	font-size: 150%;
+}
+
+.loginForm ul li.catalogueli select[name=catalogue] {
+	width: 98%;
+	font-size: 12px;
+	height: 26px;
+	border: none;
+	padding: 3px 4px 3px 2.2em;
+	border-radius: 10px;
+}
+
+.loginForm ul li.catalogueli #sleHid {
+	display: block;
+	width: 99%;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.loginForm ul li.catalogueli #sleBG {
+	width: 98%;
+	height: 26px;
+	display: block;
+	border-radius: 10px;
+}
+
+.loginForm ul li.pictureli {
+	line-height: 3.8em;
+}
+
+.loginForm ul li.pictureli span.picturesp {
+	font-family: cursive;
+	color: #000;
+	font-size: 150%;
+}
+
+.loginForm ul li.pictureli img.attach {
+	height: 28px;
+	width: 27px;
+	background: url("../img/attach.png") 0px no-repeat;
+}
+
+.loginForm ul li input[name=go] {
+	text-align: center;
+	padding: 2px 3%;
+	line-height: 2em;
+	border: 1px solid #FF1500;
+	border-radius: 3px;
+	background: -webkit-gradient(linear, left top, left 24, from(#FF6900),
+		color-stop(0%, #FF9800), to(#FF6900) );
+	background: -moz-linear-gradient(top, #FF6900, #FF9800 0, #FF6900 24px);
+	background: -o-linear-gradient(top, #FF6900, #FF9800 0, #FF6900 24px);
+	filter: progid :     DXImageTransform.Microsoft.gradient (  
+		startColorstr = 
+		   '#FF9800', endColorstr =     '#FF6900' );
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF9800', endColorstr='#FF6900')";
+	height: 30px;
+	cursor: pointer;
+	letter-spacing: 4px;
+	margin-left: 80%;
+	margin-right: 10%;
+	color: #FFF;
+	font-weight: bold;
+	width: 16%;
+}
+
+.loginForm ul li input[name=go]:hover {
+	background: -webkit-gradient(linear, left top, left 24, from(#FF9800),
+		color-stop(0%, #FF6900), to(#FF9800) );
+	background: -moz-linear-gradient(top, #FF9800, #FF6900 0, #FF9800 24px);
+	background: -o-linear-gradient(top, #FF6900, #FF6900 0, #FF9800 24px);
+	filter: progid :     DXImageTransform.Microsoft.gradient (  
+		startColorstr = 
+		 '#FF6900', endColorstr =     '#FF9800' );
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF6900', endColorstr='#FF9800')";
+}
